@@ -42,7 +42,6 @@ generate_button = tkinter.Button(root, text="Generate", command=generate_passwor
 password_label = tkinter.Label(root, textvariable=pass_stringvar)
 # Button to copy password to clipboard
 copy_button = tkinter.Button(root, text="Copy to clipboard", command=copy_pass)
-# Entry for website for which to save password
 
 
 # Place the widgets
